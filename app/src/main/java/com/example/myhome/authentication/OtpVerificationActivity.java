@@ -104,7 +104,7 @@ public class OtpVerificationActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    MailSender sender = new MailSender("care@narenderkeswani.com", "Narender@boi");
+                    MailSender sender = new MailSender("your@emailid.com", "your@password");
 
                     sender.sendMail("2 Factor OTP Verification for MyHome App",
                             "OTP for My Home 2 factor authentication is " + String.valueOf(otp),
