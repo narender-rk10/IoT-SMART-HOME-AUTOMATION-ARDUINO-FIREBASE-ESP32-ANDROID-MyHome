@@ -7,11 +7,11 @@
 #include <TimeLib.h>
 #include <SPI.h>
 
-#define FIREBASE_HOST "myhome-63484.firebaseio.com"
-#define FIREBASE_AUTH "e1bCD4K66FOW8cm1jsGbcKhPbn7KBOAdJRr3jeqN"
+#define FIREBASE_HOST "ENTER_YOUR_FIREBASE_URL"
+#define FIREBASE_AUTH "ENTER_FIREBASE_KEY"
 
-#define WIFI_SSID "NARENDER KESWANI"
-#define WIFI_PASSWORD "Narend-10"
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_PASSWORD "YOUR_PWD"
 
 #define DHTTYPE DHT11
 
