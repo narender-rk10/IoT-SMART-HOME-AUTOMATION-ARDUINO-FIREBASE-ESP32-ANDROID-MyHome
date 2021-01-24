@@ -1,0 +1,13 @@
+/node_modules
+/.idea
+/.git
+/.gradle
+/.idea
+/gradle
+/node_modules
+/app/.idea
+/app/build
+/app/gradle
+/app/libs
+/functions/node_modules/
+

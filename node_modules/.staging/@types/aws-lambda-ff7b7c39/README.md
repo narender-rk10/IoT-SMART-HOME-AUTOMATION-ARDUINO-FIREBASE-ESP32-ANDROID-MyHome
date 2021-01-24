@@ -1,0 +1,16 @@
+# Installation
+> `npm install --save @types/aws-lambda`
+
+# Summary
+This package contains type definitions for AWS Lambda (http://docs.aws.amazon.com/lambda).
+
+# Details
+Files were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-lambda
+
+Additional Details
+ * Last updated: Mon, 26 Feb 2018 20:02:51 GMT
+ * Dependencies: none
+ * Global values: AWSLambda
+
+# Credits
+These definitions were written by James Darbyshire <https://github.com/darbio/aws-lambda-typescript>, Michael Skarum <https://github.com/skarum>, Stef Heyenrath <https://github.com/StefH/DefinitelyTyped>, Toby Hede <https://github.com/tobyhede>, Rich Buggy <https://github.com/buggy>, Yoriki Yamaguchi <https://github.com/y13i>, wwwy3y3 <https://github.com/wwwy3y3>, Ishaan Malhi <https://github.com/OrthoDex>, Michael Marner <https://github.com/MichaelMarner>, Daniel Cottone <https://github.com/daniel-cottone>, Kostya Misura <https://github.com/kostya-misura>, Markus Tacker <https://github.com/coderbyheart>, Palmi Valgeirsson <https://github.com/palmithor>, Danilo Raisi <https://github.com/daniloraisi>, Simon Buchan <https://github.com/simonbuchan>, David Hayden <https://github.com/Haydabase>.

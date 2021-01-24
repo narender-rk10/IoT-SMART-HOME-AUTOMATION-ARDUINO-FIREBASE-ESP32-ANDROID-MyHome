@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/backgroundColor1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".onboarding.S4Fragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/a5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mazzardhmediumitalic"
+        android:shadowColor="@color/textColor"
+        android:text="@string/make_your_plant_healthy_by_getting_plant_moisture_level"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="30sp" />
+</LinearLayout>

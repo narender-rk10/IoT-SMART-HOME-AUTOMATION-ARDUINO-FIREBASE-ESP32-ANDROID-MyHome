@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rkmobile2519:customedittext:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b70d680a721f2e396a7249c95e7a3a9a/jetified-customedittext-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b70d680a721f2e396a7249c95e7a3a9a/jetified-customedittext-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rkmobile2519/customedittext/1.0.0/c757a01df53ccb09bcd4e804dc6640261831f3e9/customedittext-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rkmobile2519/customedittext/1.0.0/427099c3a7a8ef5831817c4e4ed51ac45e35636b/customedittext-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

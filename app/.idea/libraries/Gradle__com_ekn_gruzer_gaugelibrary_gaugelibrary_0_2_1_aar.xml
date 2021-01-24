@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ekn.gruzer.gaugelibrary:gaugelibrary:0.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b2055702cbea25bc2783eeaf20cae9e/jetified-gaugelibrary-0.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b2055702cbea25bc2783eeaf20cae9e/jetified-gaugelibrary-0.2.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ekn.gruzer.gaugelibrary/gaugelibrary/0.2.1/f7e24fac8314f64afb0a8df8316c3bec860de916/gaugelibrary-0.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ekn.gruzer.gaugelibrary/gaugelibrary/0.2.1/87718dc57a4f85190881716664100d96cd6983ca/gaugelibrary-0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

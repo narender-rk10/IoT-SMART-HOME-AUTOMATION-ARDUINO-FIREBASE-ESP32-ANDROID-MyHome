@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.thuat26:CustomGaugeView:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/805fc353a455017755b15f96c06f6e29/jetified-CustomGaugeView-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/805fc353a455017755b15f96c06f6e29/jetified-CustomGaugeView-1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

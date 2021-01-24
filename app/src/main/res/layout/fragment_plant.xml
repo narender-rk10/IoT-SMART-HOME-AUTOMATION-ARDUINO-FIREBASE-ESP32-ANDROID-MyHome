@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor1"
+    android:textAlignment="center"
+    tools:context=".plant.PlantFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/pa"
+            android:layout_width="403dp"
+            android:layout_height="410dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/plantj" />
+
+
+        <LinearLayout
+            android:layout_below="@id/pa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:neumorph_backgroundColor="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/backgroundColor"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:gravity="center|start"
+                        android:showText="true"
+                        android:text="Moisture Level:"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <com.app.progresviews.ProgressWheel
+                        android:id="@+id/plant_moisture"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_120sdp"
+                        android:layout_below="@+id/plant_status"
+                        android:layout_marginTop="1dp"
+                        android:foregroundGravity="center"
+                        app:barWidth="17dp"
+                        app:countTextColor="@color/textColor"
+                        app:countTextSize="20sp"
+                        app:defTextColor="@color/textColor"
+                        app:defTextSize="20sp"
+                        app:marginBtwText="15dp"
+                        app:progressColor="@color/textColor" />
+
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:neumorph_backgroundColor="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/plant_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/backgroundColor"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:gravity="center|start"
+                        android:showText="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

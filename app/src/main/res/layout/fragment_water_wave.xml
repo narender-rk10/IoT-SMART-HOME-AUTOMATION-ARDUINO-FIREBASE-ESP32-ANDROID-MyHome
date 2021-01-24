@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor1"
+    tools:context=".water.WaterWaveFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="28dp"
+            app:neumorph_backgroundColor="@color/backgroundColor"
+            app:neumorph_shadowColorDark="@color/strokecol"
+            app:neumorph_shadowColorLight="@color/strokecol"
+            app:neumorph_shadowElevation="6dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            app:neumorph_shapeType="flat"
+            app:neumorph_strokeWidth="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/waveLoadingView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_430sdp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                app:wlv_borderColor="@color/textColor"
+                app:wlv_borderWidth="3dp"
+                app:wlv_round_rectangle="true"
+                app:wlv_shapeType="rectangle"
+                app:wlv_titleCenterColor="@color/textColor"
+                app:wlv_titleCenterSize="24sp"
+                app:wlv_triangle_direction="north"
+                app:wlv_waveColor="@color/chat_color" />
+
+        <TextView
+            android:id="@+id/water_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/mazzardlbolditalic"
+            android:gravity="center"
+            android:showText="true"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="28sp"
+            android:textStyle="bold">
+
+        </TextView>
+            </LinearLayout>
+        </soup.neumorphism.NeumorphCardView>
+    </RelativeLayout>
+</ScrollView>

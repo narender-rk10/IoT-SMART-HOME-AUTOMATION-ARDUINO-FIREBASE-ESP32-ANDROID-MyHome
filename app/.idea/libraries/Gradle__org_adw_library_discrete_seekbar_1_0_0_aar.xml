@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.adw.library:discrete-seekbar:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79adff4074601c362780d9bf01840d2c/jetified-discrete-seekbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79adff4074601c362780d9bf01840d2c/jetified-discrete-seekbar-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.adw.library/discrete-seekbar/1.0.0/aa905150fcda849e371fb7dcde558364cf5319df/discrete-seekbar-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.adw.library/discrete-seekbar/1.0.0/6370d9e294b5b393e118334a1638ad0e2a4dfbd9/discrete-seekbar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/backgroundColor1"
+    app:layout_gravity="center"
+    tools:context=".authentication.OtpVerificationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/mazzardhmediumitalic"
+                android:text="OTP Verification"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_240sdp"
+                android:src="@drawable/otpsecure" />
+
+            <TextView
+                android:id="@+id/mob_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/mazzardhmediumitalic"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/mazzardhmediumitalic"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/OTPPinView"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:cursorVisible="true"
+                android:fontFamily="@font/mazzardhblackitalic"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="@dimen/_10sdp"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                app:cursorColor="@color/textColor"
+                app:cursorWidth="2dp"
+                app:hideLineWhenFilled="false"
+                app:itemCount="6"
+                app:itemHeight="48dp"
+                app:itemRadius="4dp"
+                app:itemSpacing="0dp"
+                app:itemWidth="48dp"
+                app:lineColor="@color/textColor"
+                app:lineWidth="2dp"
+                app:viewType="rectangle" />
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/submit_otp"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/edit_style"
+                android:fontFamily="@font/mazzardhblackitalic"
+                android:text="VERIFY OTP"
+                android:textColor="@color/backgroundColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:neumorph_backgroundColor="@color/textColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp" />
+
+            <soup.neumorphism.NeumorphButton
+                android:id="@+id/resend_otp"
+                style="@style/Widget.Neumorph.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/edit_style"
+                android:fontFamily="@font/mazzardhblackitalic"
+                android:text="RESEND OTP"
+                android:textColor="@color/backgroundColor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:neumorph_backgroundColor="@color/textColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

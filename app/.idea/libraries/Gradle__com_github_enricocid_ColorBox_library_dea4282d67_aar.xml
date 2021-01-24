@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.enricocid:ColorBox-library:dea4282d67@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b4194116e3f14cb4099713867d9acdb/jetified-ColorBox-library-dea4282d67/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b4194116e3f14cb4099713867d9acdb/jetified-ColorBox-library-dea4282d67/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.enricocid/ColorBox-library/dea4282d67/35f615cac420bf38c043c610693e354cb4043046/ColorBox-library-dea4282d67-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.enricocid/ColorBox-library/dea4282d67/7181f5bb65b8e40c75b46c822f3baf3fd4a5c671/ColorBox-library-dea4282d67-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

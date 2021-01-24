@@ -1,0 +1,131 @@
+Basic COCOMO, using software project class: Embedded
+Total lines of code  = 10395 (10.395 kLOC)
+Effort Applied   (E) =  59.771 [person-months] (3.6 * kLOC ^ 1.20)
+Development Time (D) =   9.256 [months] (2.5 * E ^ 0.32)
+People Required  (P) =   6.458 [number of] (E / D)
+
+/app/src/main/res/menu/main.xml: 10 LOC
+/app/src/main/res/menu/activity_main_drawer.xml: 61 LOC
+/app/src/main/res/layout/list_item.xml: 15 LOC
+/app/src/main/res/layout/list_group.xml: 17 LOC
+/app/src/main/res/layout/fragment_s1.xml: 27 LOC
+/app/src/main/res/layout/fragment_s2.xml: 27 LOC
+/app/src/main/res/layout/fragment_s3.xml: 28 LOC
+/app/src/main/res/layout/fragment_s4.xml: 28 LOC
+/app/src/main/res/layout/fragment_s5.xml: 27 LOC
+/app/src/main/res/layout/fragment_s6.xml: 27 LOC
+/app/src/main/res/layout/fragment_s7.xml: 27 LOC
+/app/src/main/res/layout/activity_faq.xml: 40 LOC
+/app/src/main/res/layout/activity_login.xml: 133 LOC
+/app/src/main/res/layout/fragment_plant.xml: 72 LOC
+/app/src/main/res/layout/app_bar_default.xml: 29 LOC
+/app/src/main/res/layout/content_default.xml: 78 LOC
+/app/src/main/res/layout/nav_header_main.xml: 29 LOC
+/app/src/main/res/layout/activity_default.xml: 24 LOC
+/app/src/main/res/layout/activity_chat_bot.xml: 63 LOC
+/app/src/main/res/layout/activity_settings.xml: 469 LOC
+/app/src/main/res/layout/fragment_dashboard.xml: 524 LOC
+/app/src/main/res/layout/adapter_message_one.xml: 51 LOC
+/app/src/main/res/layout/fragment_last_month.xml: 271 LOC
+/app/src/main/res/layout/fragment_this_month.xml: 267 LOC
+/app/src/main/res/layout/fragment_water_wave.xml: 69 LOC
+/app/src/main/res/layout/activity_auto_on_off.xml: 943 LOC
+/app/src/main/res/layout/activity_on_boarding.xml: 50 LOC
+/app/src/main/res/layout/fragment_today_usage.xml: 397 LOC
+/app/src/main/res/layout/activity_edit_profile.xml: 319 LOC
+/app/src/main/res/layout/activity_registration.xml: 153 LOC
+/app/src/main/res/layout/activity_splash_screen.xml: 43 LOC
+/app/src/main/res/layout/fragment_lottie_dialog.xml: 16 LOC
+/app/src/main/res/layout/activity_bottom_nav_bar.xml: 34 LOC
+/app/src/main/res/layout/activity_password_reset.xml: 115 LOC
+/app/src/main/res/layout/activity_privacy_policy.xml: 280 LOC
+/app/src/main/res/layout/activity_report_problem.xml: 110 LOC
+/app/src/main/res/layout/activity_change_password.xml: 119 LOC
+/app/src/main/res/layout/activity_last_month_graph.xml: 11 LOC
+/app/src/main/res/layout/activity_otp_verification.xml: 130 LOC
+/app/src/main/res/layout/activity_this_month_graph.xml: 12 LOC
+/app/src/main/res/layout/fragment_tab_layout_meter.xml: 20 LOC
+/app/src/main/res/layout/parental_control_switch_layout.xml: 19 LOC
+/app/src/main/res/values/attrs.xml: 3 LOC
+/app/src/main/res/values/colors.xml: 35 LOC
+/app/src/main/res/values/dimens.xml: 5 LOC
+/app/src/main/res/values/styles.xml: 30 LOC
+/app/src/main/res/values/strings.xml: 73 LOC
+/app/src/main/res/values/ic_launcher_background.xml: 2 LOC
+/app/src/main/res/drawable/ic_home.xml: 9 LOC
+/app/src/main/res/drawable/sw_thumb.xml: 19 LOC
+/app/src/main/res/drawable/sw_track.xml: 15 LOC
+/app/src/main/res/drawable/edit_style.xml: 21 LOC
+/app/src/main/res/drawable/border_outline.xml: 9 LOC
+/app/src/main/res/drawable/textinputborder.xml: 8 LOC
+/app/src/main/res/drawable/home_background_oval.xml: 6 LOC
+/app/src/main/res/drawable/leaf_background_oval.xml: 6 LOC
+/app/src/main/res/drawable/chat_input_background.xml: 20 LOC
+/app/src/main/res/drawable/elect_background_oval.xml: 6 LOC
+/app/src/main/res/drawable/chat_response_background.xml: 20 LOC
+/app/src/main/res/drawable/ic_visibility_black_18dp.xml: 10 LOC
+/app/src/main/res/drawable/raindrop_background_oval.xml: 6 LOC
+/app/src/main/res/drawable/transition_background_drawable_home.xml: 6 LOC
+/app/src/main/res/drawable/transition_background_drawable_leaf.xml: 6 LOC
+/app/src/main/res/drawable/transition_background_drawable_elect.xml: 6 LOC
+/app/src/main/res/drawable/transition_background_drawable_raindrop.xml: 6 LOC
+/app/src/main/res/values-v29/styles.xml: 2 LOC
+/app/src/main/java/com/example/myhome/faq/FaqActivity.java: 64 LOC
+/app/src/main/java/com/example/myhome/faq/ExpandableListDataPump.java: 63 LOC
+/app/src/main/java/com/example/myhome/faq/CustomExpandableListAdapter.java: 84 LOC
+/app/src/main/java/com/example/myhome/plant/PlantFragment.java: 64 LOC
+/app/src/main/java/com/example/myhome/water/WaterWaveFragment.java: 88 LOC
+/app/src/main/java/com/example/myhome/chatbot/helpers/SendMessageInBg.java: 42 LOC
+/app/src/main/java/com/example/myhome/chatbot/helpers/RequestJavaV2Task.java: 42 LOC
+/app/src/main/java/com/example/myhome/chatbot/adapters/ChatAdapter.java: 49 LOC
+/app/src/main/java/com/example/myhome/chatbot/interfaces/BotReply.java: 5 LOC
+/app/src/main/java/com/example/myhome/chatbot/Message.java: 21 LOC
+/app/src/main/java/com/example/myhome/chatbot/ChatBotActivity.java: 104 LOC
+/app/src/main/java/com/example/myhome/onboarding/S1Fragment.java: 26 LOC
+/app/src/main/java/com/example/myhome/onboarding/S2Fragment.java: 26 LOC
+/app/src/main/java/com/example/myhome/onboarding/S3Fragment.java: 26 LOC
+/app/src/main/java/com/example/myhome/onboarding/S4Fragment.java: 25 LOC
+/app/src/main/java/com/example/myhome/onboarding/S5Fragment.java: 25 LOC
+/app/src/main/java/com/example/myhome/onboarding/S6Fragment.java: 25 LOC
+/app/src/main/java/com/example/myhome/onboarding/S7Fragment.java: 25 LOC
+/app/src/main/java/com/example/myhome/onboarding/OnBoardingActivity.java: 105 LOC
+/app/src/main/java/com/example/myhome/electricity/adapter/MyMeterAdapter.java: 38 LOC
+/app/src/main/java/com/example/myhome/electricity/LastMonthFragment.java: 128 LOC
+/app/src/main/java/com/example/myhome/electricity/ThisMonthFragment.java: 130 LOC
+/app/src/main/java/com/example/myhome/electricity/TodayUsageFragment.java: 116 LOC
+/app/src/main/java/com/example/myhome/electricity/LastMonthGraphActivity.java: 148 LOC
+/app/src/main/java/com/example/myhome/electricity/TabLayoutMeterFragment.java: 65 LOC
+/app/src/main/java/com/example/myhome/electricity/ThisMonthGraphActivity.java: 153 LOC
+/app/src/main/java/com/example/myhome/reportissue/helpers/SendMail.java: 66 LOC
+/app/src/main/java/com/example/myhome/reportissue/helpers/GMailSender.java: 100 LOC
+/app/src/main/java/com/example/myhome/reportissue/helpers/JSSEProvider.java: 20 LOC
+/app/src/main/java/com/example/myhome/reportissue/ReportProblemActivity.java: 163 LOC
+/app/src/main/java/com/example/myhome/miscellaneous/SettingsActivity.java: 260 LOC
+/app/src/main/java/com/example/myhome/miscellaneous/AutoOnOffActivity.java: 520 LOC
+/app/src/main/java/com/example/myhome/miscellaneous/LottieDialogFragment.java: 32 LOC
+/app/src/main/java/com/example/myhome/miscellaneous/SplashScreenActivity.java: 152 LOC
+/app/src/main/java/com/example/myhome/miscellaneous/PrivacyPolicyActivity.java: 29 LOC
+/app/src/main/java/com/example/myhome/authentication/LoginActivity.java: 127 LOC
+/app/src/main/java/com/example/myhome/authentication/EditProfileActivity.java: 198 LOC
+/app/src/main/java/com/example/myhome/authentication/RegistrationActivity.java: 195 LOC
+/app/src/main/java/com/example/myhome/authentication/PasswordResetActivity.java: 72 LOC
+/app/src/main/java/com/example/myhome/authentication/ChangePasswordActivity.java: 90 LOC
+/app/src/main/java/com/example/myhome/authentication/OtpVerificationActivity.java: 174 LOC
+/app/src/main/java/com/example/myhome/maincontroller/DashboardFragment.java: 294 LOC
+/app/src/main/java/com/example/myhome/maincontroller/BottomNavBarActivity.java: 260 LOC
+/app/src/main/AndroidManifest.xml: 70 LOC
+/app/src/test/java/com/example/myhome/ExampleUnitTest.java: 14 LOC
+/app/src/androidTest/java/com/example/myhome/ExampleInstrumentedTest.java: 21 LOC
+/functions/index.js: 338 LOC
+
+Excluded files in:
+	/node_modules
+	/.idea
+	/.git
+	/.gradle
+	/gradle
+	/app/.idea
+	/app/build
+	/app/gradle
+	/app/libs
+	/functions/node_modules/

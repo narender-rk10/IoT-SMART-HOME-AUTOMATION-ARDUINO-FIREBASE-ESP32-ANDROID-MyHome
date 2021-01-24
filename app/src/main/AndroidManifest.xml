@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myhome">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <receiver
+            android:name=".network.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name = "android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name = "android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".authentication.OtpVerificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reportissue.ReportProblemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chatbot.ChatBotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".faq.FaqActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miscellaneous.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miscellaneous.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miscellaneous.AutoOnOffActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".electricity.ThisMonthGraphActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".electricity.LastMonthGraphActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.OnBoardingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".maincontroller.BottomNavBarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miscellaneous.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authentication.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.PasswordResetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

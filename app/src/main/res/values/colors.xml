@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yellow">#ffb300</color>
+    <color name="red_active">#f44336</color>
+    <color name="blue_active">#3DB5EA</color>
+    <color name="green_active">#4FD856</color>
+    <color name="yellow_active">#ffeb3b</color>
+    <color name="red_inactive">#e57373</color>
+    <color name="blue_inactive">#CAE4FA</color>
+    <color name="green_inactive">#BFECC1</color>
+    <color name="red_bg_light">#ffebee</color>
+    <color name="chat_color">#6C63FF</color>
+    <color name="invisible">#00ffffff</color>
+    <color name="backgroundColor1">#F2FBFF</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="textColor">#100E3B</color>
+    <color name="strokecol">#d9d9d9</color>
+
+</resources>

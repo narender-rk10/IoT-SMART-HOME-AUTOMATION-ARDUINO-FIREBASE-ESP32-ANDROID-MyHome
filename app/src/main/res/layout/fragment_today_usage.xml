@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor1"
+        tools:context=".electricity.TodayUsageFragment">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:gravity="center"
+                        android:showText="true"
+                        android:text="@string/today_s_electricity_usage"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:drawablePadding="5dp"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:gravity="center"
+                        android:showText="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/energy_kwh"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tkwh"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/bill"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tbill"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/current_a"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tcurr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/power_w"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tpow"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/voltage_v"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvol"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/frequency_hz"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tfreq"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        app:neumorph_backgroundColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        app:neumorph_shadowElevation="6dp"
+                        app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                        app:neumorph_shapeType="flat"
+                        app:neumorph_strokeWidth="18dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="@string/power_factor"
+                                android:textColor="@color/textColor"
+                                android:textSize="38sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tpf"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:background="@color/backgroundColor"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:textColor="@color/textColor"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </soup.neumorphism.NeumorphCardView>
+                </LinearLayout>
+    </ScrollView>

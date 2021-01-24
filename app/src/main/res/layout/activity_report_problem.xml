@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor1"
+    tools:context=".reportissue.ReportProblemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/i_ri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/mazzardlbolditalic"
+            android:text="Report Issue"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_rb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_below="@+id/i_ri"
+            android:src="@drawable/bugfix">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/si_ri"
+            android:layout_below="@+id/img_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="start"
+            android:fontFamily="@font/mazzardlbold"
+            android:text="Select Issue:"
+            android:textColor="@color/textColor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinnerQuestionsOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/si_ri"
+            android:fontFamily="@font/mazzardlbold"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            app:smsp_arrowColor="@color/textColor"
+            app:smsp_highlightColor="@color/textColor"
+            app:smsp_hintColor="@color/textColor"
+            app:smsp_hintSize="18sp"
+            app:smsp_itemColor="@color/textColor"
+            app:smsp_itemListBackgroundColor="@color/backgroundColor"
+            app:smsp_itemListColor="@color/textColor"
+            app:smsp_itemListHintBackgroundColor="@color/backgroundColor"
+            app:smsp_itemListHintColor="@color/gray_btn_bg_color"
+            app:smsp_itemSize="22sp"
+            app:smsp_selectedItemListColor="@color/chat_color"
+            app:smsp_typeface="@font/mazzardlbold"
+            app:smsp_underlineColor="@color/textColor"
+            app:smsp_underlineSize="0.7dp" />
+
+        <EditText
+            android:id="@+id/prob_sugg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerQuestionsOptions"
+            android:background="@drawable/textinputborder"
+            android:backgroundTint="@color/textColor"
+            android:fontFamily="@font/mazzardlbold"
+            android:gravity="top|left"
+            android:hint="Problem/Suggestion:"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:lines="8"
+            android:maxLines="10"
+            android:minLines="6"
+            android:padding="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scrollbars="vertical"
+            android:shadowColor="@color/textColor"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="24sp" />
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/report_btn"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prob_sugg"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edit_style"
+            android:fontFamily="@font/mazzardhblackitalic"
+            android:text="Report Issue"
+            android:textColor="@color/backgroundColor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:neumorph_backgroundColor="@color/textColor"
+            app:neumorph_shadowColorDark="@color/strokecol"
+            app:neumorph_shadowColorLight="@color/strokecol"
+            app:neumorph_shadowElevation="6dp"
+            app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+            app:neumorph_shapeType="flat"
+            app:neumorph_strokeWidth="18dp" />
+
+    </RelativeLayout>
+</ScrollView>

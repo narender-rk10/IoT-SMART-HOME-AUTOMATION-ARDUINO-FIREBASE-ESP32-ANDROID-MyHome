@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor1"
+        tools:context=".miscellaneous.SettingsActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/i_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/mazzardlbolditalic"
+                android:text="Settings"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/epsettings_rep"
+                android:layout_below="@+id/i_s"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:src="@drawable/epsettings"/>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/pcs1"
+                android:layout_below="@+id/epsettings_rep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginTop="50dp"
+                app:neumorph_backgroundColor="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:stretchColumns="0">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="ELECTRICITY CHARGES"
+                                android:textAlignment="center"
+                                android:textColor="@color/textColor"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:stretchColumns="0">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <TableLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:stretchColumns="0">
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="Units"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="24sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="@string/_0_100"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="28dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="101-300"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="28dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="301-500"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="28dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="501-1000"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="28dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="More than \n 1000"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="14dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="Other Charges\n (if any)"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="Prices"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="24sp"
+                                                android:textStyle="bold" />
+
+                                            <EditText
+                                                android:id="@+id/ZtH"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="0-100"
+                                                android:inputType="numberDecimal"
+                                                android:maxLines="1"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                            <EditText
+                                                android:id="@+id/HtT"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="101-300"
+                                                android:inputType="numberDecimal"
+                                                android:maxLines="1"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                            <EditText
+                                                android:id="@+id/TtF"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="301-500"
+                                                android:inputType="numberDecimal"
+                                                android:maxLines="1"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                            <EditText
+                                                android:id="@+id/FtT"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="501-1000"
+                                                android:inputType="numberDecimal"
+                                                android:maxLines="1"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                            <EditText
+                                                android:id="@+id/MtT"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="More than 1000"
+                                                android:inputType="numberDecimal"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                            <EditText
+                                                android:id="@+id/OC"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="@dimen/_6sdp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/rupee"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:hint="0ther Charges"
+                                                android:inputType="numberDecimal"
+                                                android:maxLines="1"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                        </LinearLayout>
+
+                                    </TableRow>
+                                </TableLayout>
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <soup.neumorphism.NeumorphButton
+                        android:id="@+id/buttonSE1"
+                        style="@style/Widget.Neumorph.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:text="UPDATE"
+                        android:textColor="@color/backgroundColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:neumorph_backgroundColor="@color/textColor" />
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/pcs1"
+                android:layout_margin="4dp"
+                android:layout_marginTop="50dp"
+                app:neumorph_backgroundColor="@color/backgroundColor"
+                app:neumorph_shadowColorDark="@color/strokecol"
+                app:neumorph_shadowColorLight="@color/strokecol"
+                app:neumorph_shadowElevation="6dp"
+                app:neumorph_shapeAppearance="@style/CustomShapeAppearance"
+                app:neumorph_shapeType="flat"
+                app:neumorph_strokeWidth="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:stretchColumns="0">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="@font/mazzardlbolditalic"
+                                android:gravity="center"
+                                android:showText="true"
+                                android:text="WATER TANK"
+                                android:textAlignment="center"
+                                android:textColor="@color/textColor"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:stretchColumns="0">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <TableLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:stretchColumns="0">
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="12dp"
+                                                android:layout_marginTop="12dp"
+                                                android:layout_marginRight="12dp"
+                                                android:layout_marginBottom="26dp"
+                                                android:background="@color/backgroundColor"
+                                                android:drawablePadding="10dp"
+                                                android:fontFamily="@font/mazzardlbolditalic"
+                                                android:gravity="center"
+                                                android:showText="true"
+                                                android:text="Total Height of \n the Water \n Tank [in cm]"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/textColor"
+                                                android:textSize="22sp"
+                                                android:textStyle="bold" />
+
+                                            <EditText
+                                                android:id="@+id/wl"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="32sp"
+                                                android:backgroundTint="@color/textColor"
+                                                android:drawableLeft="@mipmap/length"
+                                                android:drawablePadding="@dimen/_10sdp"
+                                                android:inputType="number"
+                                                android:maxLines="1"
+                                                android:numeric="integer"
+                                                android:shadowColor="@color/textColor"
+                                                android:textColor="@color/textColor"
+                                                android:textColorHint="@color/textColor"
+                                                android:textSize="20sp" />
+
+                                        </LinearLayout>
+
+                                    </TableRow>
+                                </TableLayout>
+
+                        </TableRow>
+                    </TableLayout>
+
+                    <soup.neumorphism.NeumorphButton
+                        android:id="@+id/buttonSW1"
+                        style="@style/Widget.Neumorph.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mazzardlbolditalic"
+                        android:text="UPDATE"
+                        android:textColor="@color/backgroundColor"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:neumorph_backgroundColor="@color/textColor"
+                        app:neumorph_shadowColorDark="@color/strokecol"
+                        app:neumorph_shadowColorLight="@color/strokecol" />
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+        </RelativeLayout>
+    </ScrollView>

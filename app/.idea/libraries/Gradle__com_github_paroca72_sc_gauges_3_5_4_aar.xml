@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.paroca72:sc-gauges:3.5.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d94ef555e07fb51a1c5e7cf724c56789/jetified-sc-gauges-3.5.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d94ef555e07fb51a1c5e7cf724c56789/jetified-sc-gauges-3.5.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.paroca72/sc-gauges/3.5.4/a6f3a12bc6f45d78a3ccba5ecc0c8643d700a459/sc-gauges-3.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

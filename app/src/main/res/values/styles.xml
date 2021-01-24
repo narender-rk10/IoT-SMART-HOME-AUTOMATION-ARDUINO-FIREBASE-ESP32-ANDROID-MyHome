@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorControlActivated">@color/textColor</item>
+        <item name="android:colorForeground">@color/textColor</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="material_dialog_background">@color/backgroundColor1</item>
+        <item name="material_dialog_title_text_color">@color/textColor</item>
+        <item name="material_dialog_message_text_color">@color/textColor</item>
+        <item name="material_dialog_positive_button_color">@color/red_active</item>
+        <item name="material_dialog_positive_button_text_color">@color/textColor</item>
+        <item name="material_dialog_negative_button_text_color">@color/textColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/mazzardhblack</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/mazzardhblack</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+    </style>
+
+    <style name="ToolbarTitleStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="CustomShapeAppearance">
+        <item name="neumorph_cornerFamily">rounded</item>
+        <item name="neumorph_cornerSize">36dp</item>
+    </style>
+
+</resources>
