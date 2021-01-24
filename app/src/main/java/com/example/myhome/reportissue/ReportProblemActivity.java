@@ -114,11 +114,11 @@ public class ReportProblemActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    MailSender sender = new MailSender("care@narenderkeswani.com", "Narender@boi");
+                    MailSender sender = new MailSender("youremailid@.com", "yourpassword");
                     sender.sendMail("MyHome Issues/Suggestions",
                             "FROM: "+emailid+ "\n NAME:"+nameid+"\n PHONE:"+phoneid+"\n ISSUE TYPE:"+issue_question + "\n CUSTOMER QUERY:[PROBLEM/SUGGESTION]" + reportData.getText().toString(),
-                            "care@narenderkeswani.com",
-                            "narender.rk10@gmail.com");
+                            "youremailid@.com",
+                            "youremailid@.com");
 
                             ReportProblemActivity.this.runOnUiThread(new Runnable()
                     {
