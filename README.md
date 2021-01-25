@@ -1,4 +1,21 @@
 # IoT-SMART-HOME-AUTOMATION-ARDUNIO-FIREBASE-ESP32-ANDROID-MyHome
+Iot based Smart Home Automation connected with firebase and Android
+Also integrated with google assistant and the telegram using dialogflow
+ESP32 is main controller in IoT
+
+# What sensor and Devices are use?
+
+1. Esp32 board
+2. 4 set of Relays
+3. Jumper Wires
+4. DHT11 sensor
+5. Flame sensor
+6. Ultrasonic Sensor HC-SR04 sensor
+7. MQ135 Air quality Sensor
+8. 1 full size breadboard
+9. 1 half size breadboard
+10. Soil moisture sensor with probes
+11. PZEM – 004T 80-260V 100A module
 
 # YOUTUBE LINK OF THE PROJECT:
 https://youtu.be/08PSBhAIFlo
