@@ -18,6 +18,8 @@ ESP32 is main controller in IoT
 11. PZEM – 004T 80-260V 100A module
 
 # YOUTUBE LINK OF THE PROJECT:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/08PSBhAIFlo/0.jpg)](https://www.youtube.com/watch?v=08PSBhAIFlo)
+
 https://youtu.be/08PSBhAIFlo
 
 # PROPOSED SYSTEM
